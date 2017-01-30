@@ -24,5 +24,15 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void Calculate_Click(object sender, RoutedEventArgs e)
+        {
+            // code goes here
+        }
+
+        private void inputVariable_TextInput(object sender, TextCompositionEventArgs e)
+        {
+            inputVariable.ToString();
+        }
     }
 }
