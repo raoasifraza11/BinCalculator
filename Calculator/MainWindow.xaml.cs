@@ -43,11 +43,6 @@ namespace Calculator
 
         }
 
-        private void inputVariable_TextInput(object sender, TextCompositionEventArgs e)
-        {
-            
-        }
-
         private void inputVariable_GotFocus(object sender, RoutedEventArgs e)
         {
             inputVariable.Text = string.Empty;
