@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="The Binary Calculator" Height="350" Width="323.537">
+    <Grid Margin="0,0,2,-0.854" Width="315">
+        <Label x:Name="label" Content="Binary Calculator" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="15" FontStyle="Italic" TextOptions.TextFormattingMode="Display"/>
+        <Label x:Name="label1" Content="Enter an number:" HorizontalAlignment="Left" Margin="10,59.219,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" Height="23" Margin="124.915,59.219,0,0" TextWrapping="Wrap" Text="Enter a number" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120"/>
+        <Button x:Name="button" Content="Calculate" HorizontalAlignment="Left" Margin="169.915,87.219,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="label2" Content="BIN:" HorizontalAlignment="Left" Margin="10,122.39,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2_Copy" Content="HEX:" HorizontalAlignment="Left" Margin="10,0,0,131.68" VerticalAlignment="Bottom"/>
+        <Label x:Name="label2_Copy1" Content="DEC:" HorizontalAlignment="Left" Margin="10,0,0,93.265" VerticalAlignment="Bottom"/>
+        <Label x:Name="label3" Content="Output" HorizontalAlignment="Left" Margin="124.915,122.39,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3_Copy" Content="Output" HorizontalAlignment="Left" Margin="124.915,0,0,131.68" VerticalAlignment="Bottom"/>
+        <Label x:Name="label3_Copy1" Content="Output" HorizontalAlignment="Left" Margin="124.915,0,0,93.265" VerticalAlignment="Bottom"/>
+
     </Grid>
 </Window>
