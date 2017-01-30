@@ -48,6 +48,7 @@ namespace Calculator
             catch (Exception ex)
             {
                 // exception handle here
+                MessageBox.Show(ex.Message);
             }
 
         }
