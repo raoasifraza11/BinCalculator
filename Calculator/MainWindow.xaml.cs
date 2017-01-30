@@ -27,19 +27,27 @@ namespace Calculator
 
         private void Calculate_Click(object sender, RoutedEventArgs e)
         {
-            // Get Value
-            int value = Convert.ToInt32(inputVariable.Text.ToString());
+           
+            try
+            {
+                // Get Value
+                int value = Convert.ToInt32(inputVariable.Text.ToString());
 
-            // Converstion logic
-            string binary = Convert.ToString(value, 2);
-            string hex = value.ToString("X");
-            string oct = Convert.ToString(value, 8);
+                // Converstion logic
+                string binary = Convert.ToString(value, 2);
+                string hex = value.ToString("X");
+                string oct = Convert.ToString(value, 8);
 
 
-            // Replace output
-            BinOutput.Text = binary;
-            hexOutput.Text = hex;
-            OctOutput.Text = oct;
+                // Replace output
+                BinOutput.Text = binary;
+                hexOutput.Text = hex;
+                OctOutput.Text = oct;
+            }
+            catch (Exception ex)
+            {
+                // exception handle here
+            }
 
         }
 
